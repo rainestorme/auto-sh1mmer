@@ -40,6 +40,7 @@ echo && echo
 sleep 8
 cros_sdk
 
+# Good job, you're not a skid! Thanks for actually reading this to see what it does instead of mindlessly giving other people access to your computer!
 echo "Beginning chroot-based build..."
 cros_sdk <<EOT
 echo "Creating shared point for image..."
