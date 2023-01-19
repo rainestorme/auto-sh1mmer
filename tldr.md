@@ -19,3 +19,7 @@ Using this project requires a significant bit of knowledge about \*nix shells, t
 ## Injecting sh1mmer into a prebuilt shim
 
 1. It's pretty simple. Just run: `./injectsh1mmer.sh /path/to/shim.bin`
+
+## Flashing a USB drive
+
+1. There are a couple of options for this. If you're on \*nix, use `dd` to flash the shim to a drive, or, if you're on Windows, you can use Rufus in `dd` mode. If you're on MacOS, you're screwed. Sorry. Get a better OS.
