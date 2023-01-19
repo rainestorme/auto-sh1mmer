@@ -16,9 +16,11 @@ echo "Installing depot_tools..."
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 export PATH=$(pwd)/depot_tools/:$PATH
 
+echo && echo
 echo "Reinstalling locales..."
 sudo apt-get install locales
 
+echo && echo
 echo "Ensuring architechture..."
 if uname -m | grep '64'; then
   echo "ARCH: 64-bit. You're all good!"
@@ -26,11 +28,13 @@ else
   echo "ARCH: 32-bit. Sadly, your system is incompatible."
   exit 1
 fi
+echo && echo
 
 echo "Creating source directory and cloning repo... This will take a lot of disk space (>10gb)"
+echo && echo
 mkdir -p ~/chromiumos
 cd ~/chromiumos
-repo init -u https://chromium.googlesource.com/chromiumos/manifest -b main
+repo init -u https://chromium.googlesource.com/chromiumos/manifest -b main -g minilayout # Hopefully minilayout should work
 repo sync -j$(nproc)
 
 echo && echo
@@ -40,7 +44,9 @@ echo && echo
 sleep 8
 cros_sdk
 
+echo && echo
 # Good job, you're not a skid! Thanks for actually reading this to see what it does instead of mindlessly giving other people access to your computer!
+# If you're wondering about the weird syntax, it's because I'm using a heredoc to pass commands to the chroot shell through stdin.
 echo "Beginning chroot-based build..."
 cros_sdk <<EOT
 echo "Creating shared point for image..."
