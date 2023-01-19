@@ -24,7 +24,7 @@ A couple of common boards are:
 - `lars`
 - `grunt`
 
-Before you start, there are a couple of choices for your environment. You can either use a VM running Ubuntu 20.04 (LTS), or you can use a physical machine running Ubuntu off of a USB stick, which will no doubt provide superior performance. The Gitpod free tier is unable to run this script, as it requires around 48gb of disk space and only 10gb are available. It also does not function on Github Codespaces, although they provide a formidable 30gb of storage.
+Before you start, there are a couple of choices for your environment. You can either use a VM running Ubuntu 20.04 (LTS), or you can use a physical machine running Ubuntu off of a USB stick, which will no doubt provide superior performance. The Gitpod free tier is unable to run this script, as it requires around 35gb of disk space and only 10gb are available. It also does not function on the free tier of Github Codespaces, although they provide a formidable 30gb of storage.
 
 No matter what you chose, the steps are the same:
 
@@ -107,7 +107,7 @@ dd if=~/chromiumos/chroot/mnt/imgs/build_shim.bin of=/dev/sdX
 
 Again, make sure to replace /dev/sdX with your USB drive path!
 
-Hopefully, you should see a bunch of output, and then it should finish. If you get an error, make sure you're using the correct path to your USB drive, and that the USB drive has enough storage space to hold the shim (8gb minimum).
+Hopefully, you should see a bunch of output, and then it should finish. If you get an error, make sure you're using the correct path to your USB drive, and that the USB drive has enough storage space to hold the shim (16gb minimum).
 
 If you don't want to do this through linux, you can use [Rufus](https://rufus.ie/en/) on Windows to flash the shim to a USB drive (ensure that you select `dd` mode when prompted).
 
