@@ -2,6 +2,14 @@
 
 An automatic set of scripts to build a RMA (factory) shim for a given ChromeOS board and inject the sh1mmer payload (BeautifulWorld).
 
+## Disclaimer: Skids beware!
+
+Using this project requires a significant bit of knowledge about \*nix shells, the boot process and drive partitioning. Before you even run this on your system, be sure to read through it to understand what it does! I'm **not responsible** if you mess up following the instructions!
+
+## Experienced Users
+
+If you know what you're doing and don't need to be held by the hand through the entire process, see [./tldr.md](https://github.com/rainestorme/auto-sh1mmer/blob/main/tldr.md).
+
 ## Usage
 
 There are two scripts in this repo: `autoshim.sh` and `injectsh1mmer.sh`. The first one is used to build a RMA shim for a given ChromeOS board, and the second one is used to inject the sh1mmer payload into the shim. If you already have a prebuilt shim, you can skip the first step and go straight to the second one.
