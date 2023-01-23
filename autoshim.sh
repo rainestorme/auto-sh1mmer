@@ -34,7 +34,7 @@ echo "Creating source directory and cloning repo... This will take a lot of disk
 echo && echo
 mkdir -p ~/chromiumos
 cd ~/chromiumos
-repo init -u https://chromium.googlesource.com/chromiumos/manifest -b main -g minilayout # Hopefully minilayout should work
+repo init -u https://chromium.googlesource.com/chromiumos/manifest -b main -g minilayout # Minilayout works most of the time. Emphasis on 'most'.
 repo sync -j$(nproc)
 
 echo && echo
@@ -42,7 +42,7 @@ echo "Setting up cros_sdk... (this will take a couple of minutes and about 3GB o
 echo "Once finished, you will be dropped into a shell. Please type 'exit' to continue the process of building an RMA shim."
 echo && echo
 sleep 8
-cros_sdk
+cros_sdk -debug # Debug is for verbose output to make sure that it's actually working
 
 echo && echo
 # Good job, you're not a skid! Thanks for actually reading this to see what it does instead of mindlessly giving other people access to your computer!
