@@ -161,4 +161,6 @@ You can disable rootFS verification, which is also known as write-protect, using
 
 ### Enabling developer mode
 
-You can also enable developer mode so that you can access the developer shell through `crosh`. You can do this by booting into the sh1mmer menu, and selecting `Enable developer mode`. However, you should be aware that this will not stop enterprise enrollment from blocking various aspects of your device's functionality. For optimal results, you should also un-enroll your device.
+You can also enable developer mode so that you can access the developer shell and the `chronos` and `root` accounts through `crosh`. You can do this by booting into the sh1mmer menu, and selecting `Enable developer mode`. However, you should be aware that this will not stop enterprise enrollment from blocking various aspects of your device's functionality. For optimal results, you should also un-enroll your device.
+
+
