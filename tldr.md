@@ -8,7 +8,7 @@ Using this project requires a significant bit of knowledge about \*nix shells, t
 
 > Ye be warned: these are instructions intended for experienced \*nix users! Go back to [README.md](https://github.com/rainestorme/auto-sh1mmer) for simpler instructions!
 
-**These instructions are intended to be run on a fresh install of Ubuntu 20.04 LTS Desktop/Server, with at least 45gb of storage space available.**
+**These instructions are intended to be run on a fresh install of Ubuntu 20.04 LTS Desktop/Server, with at least 45gb of storage space available. Only run these commands as root if the instructions say so.**
 
 1. Clone the repo and `cd` into it.
 2. Find the board that you're building for (see [Building a Shim](https://github.com/rainestorme/auto-sh1mmer)).
