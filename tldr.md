@@ -4,6 +4,10 @@
 
 Using this project requires a significant bit of knowledge about \*nix shells, the boot process and drive partitioning. Before you even run this on your system, be sure to read through it to understand what it does! I'm **not responsible** if you mess up following the instructions!
 
+This project does not produce a signed RMA shim. If you want to sign a RMA shim, you need to extract the proprietary components from an official ChromeOS shim, which I will not provide for legal reasons.
+
+The creator of this project **does not** endorse un-enrolling your Chromebook where it would violate the terms of any legally binding agreement or be illegal in any other fashion. The creator **does not**, under any circumstances, take any liability for what is done with this project.
+
 ## Usage
 
 > Ye be warned: these are instructions intended for experienced \*nix users! Go back to [README.md](https://github.com/rainestorme/auto-sh1mmer) for simpler instructions!
