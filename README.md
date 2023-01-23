@@ -31,7 +31,7 @@ No matter what you chose, the steps are the same:
 #### 1. Clone this repo and `cd` into it
 
 ```bash
-git clone https://github.com/HENRYMARTIN5/auto-sh1mmer.git
+git clone https://github.com/rainestorme/auto-sh1mmer.git
 cd auto-sh1mmer
 ```
 
