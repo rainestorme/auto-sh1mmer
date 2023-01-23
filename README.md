@@ -6,6 +6,10 @@ An automatic set of scripts to build a RMA (factory) shim for a given ChromeOS b
 
 Using this project requires a significant bit of knowledge about \*nix shells, the boot process and drive partitioning. Before you even run this on your system, be sure to read through it to understand what it does! I'm **not responsible** if you mess up following the instructions!
 
+This project does not produce a signed RMA shim. If you want to sign a RMA shim, you need to extract the proprietary components from an official ChromeOS shim, which I will not provide for legal reasons.
+
+The creator of this project **does not** endorse un-enrolling your Chromebook where it would violate the terms of any legally binding agreement or be illegal in any other fashion. The creator **does not**, under any circumstances, take any liability for what is done with this project.
+
 ## Experienced Users
 
 If you know what you're doing and don't need to be held by the hand through the entire process, see [./tldr.md](https://github.com/rainestorme/auto-sh1mmer/blob/main/tldr.md).
@@ -113,7 +117,7 @@ If you don't want to do this through linux, you can use [Rufus](https://rufus.ie
 
 ### Booting the shim
 
-Grab your ChromeOS device and boot it into recovery mode. This is done by holding `ESC` and `Refresh` (F3) and then pressing and holding the power button. Release it after a second or so. You should see a screen that looks like either of the following images:
+Grab your ChromeOS device (developer mode enabled with `dev_boot_usb` for booting an unsigned image like the one you just made) and boot it into recovery mode. This is done by holding `ESC` and `Refresh` (F3) and then pressing and holding the power button. Release it after a second or so. You should see a screen that looks like either of the following images:
 
 <img src="https://sh1mmer.me/assets/recover_black.png" alt="Recovery Mode (newer)" width="400"/>
 <img src="https://sh1mmer.me/assets/recover_white.png" alt="Recovery Mode (older)" width="400"/>
