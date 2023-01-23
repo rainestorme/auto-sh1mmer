@@ -30,6 +30,8 @@ A couple of common boards are:
 
 Before you start, there are a couple of choices for your environment. You can either use a VM running Ubuntu 20.04 (LTS), or you can use a physical machine running Ubuntu off of a USB stick, which will no doubt provide superior performance. The Gitpod free tier is unable to run this script, as it requires around 35gb of disk space and only 10gb are available. It also does not function on the free tier of Github Codespaces, although they provide a formidable 30gb of storage.
 
+**Only run these commands as root if the instructions say so. Stuff will break if your home directory is set to `/root`!**
+
 No matter what you chose, the steps are the same:
 
 #### 1. Clone this repo and `cd` into it
