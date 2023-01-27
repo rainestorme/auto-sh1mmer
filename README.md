@@ -2,6 +2,10 @@
 
 An automatic set of scripts to build a RMA (factory) shim for a given ChromeOS board and inject the sh1mmer payload (BeautifulWorld).
 
+## I need your help!
+
+If you downloaded any of the **signed** RMA shims from the sh1mmer website before they were taken down, **please** open an issue with a file download link on mega.nz or some other large file hosting site.
+
 ## Disclaimer: Skids beware!
 
 Using this project requires a significant bit of knowledge about \*nix shells, the boot process and drive partitioning. Before you even run this on your system, be sure to read through it to understand what it does! I'm **not responsible** if you mess up following the instructions!
