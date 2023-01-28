@@ -2,9 +2,9 @@
 
 An automatic set of scripts to build a RMA (factory) shim for a given ChromeOS board and inject the sh1mmer payload (BeautifulWorld).
 
-## I need your help!
+## Regarding Prebuilt Shims
 
-If you downloaded any of the **signed** RMA shims from the sh1mmer website before they were taken down, **please** open an issue with a file download link on mega.nz or some other large file hosting site.
+This repository aims to provide a means to build your own shim from source. However, I will begin providing prebuilt, modified shims in a few days (once I figure out hosting for the 99gb of data).
 
 ## Disclaimer: Skids beware!
 
