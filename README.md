@@ -4,15 +4,23 @@ An automatic set of scripts to build a RMA (factory) shim for a given ChromeOS b
 
 ## Regarding Prebuilt Shims
 
-This repository aims to provide a means to build your own shim from source. However, I will begin providing prebuilt, modified shims in a few days (once I figure out hosting for the 99gb of data).
+This repository aims to provide a means to build your own shim from source. However, I also provide prebuilt, signed shims in a convenient mega.nz folder which you can find below. I plan to upload more shims as I build them, as for now only a few are available.
+
+Folder link: https://mega.nz/folder/DIwBBTxK
+
+Decryption key: `OO3Ma9bBsnp2x81l2jNSUw`
 
 ## Disclaimer: Skids beware!
 
 Using this project requires a significant bit of knowledge about \*nix shells, the boot process and drive partitioning. Before you even run this on your system, be sure to read through it to understand what it does! I'm **not responsible** if you mess up following the instructions!
 
-This project does not produce a signed RMA shim. If you want to sign a RMA shim, you need to extract the proprietary components from an official ChromeOS shim, which I will not provide for legal reasons.
+This project does not produce a signed RMA shim. If you want to sign a built RMA shim, you need to extract the proprietary components from an official ChromeOS shim, which I will not provide for legal reasons.
 
 The creator of this project **does not** endorse un-enrolling your Chromebook where it would violate the terms of any legally binding agreement or be illegal in any other fashion. The creator **does not**, under any circumstances, take any liability for what is done with this project.
+
+## Private Keys
+
+I have obtained the private keys for the ChromeOS developers by bruteforcing them, which took a couple of months to fully complete, idly running in the background. I will not spread these and will only keep them for my own purposes of providing prebuilt, convenient RMA shims, both with and without the sh1mmer payload.
 
 ## Experienced Users
 
@@ -28,6 +36,7 @@ To build a shim, you need to know what board you want to build for. You can see 
 
 A couple of common boards are:
 
+- `jacuzzi`
 - `kindred`
 - `lars`
 - `grunt`
