@@ -18,10 +18,6 @@ This project does not produce a signed RMA shim. If you want to sign a built RMA
 
 The creator of this project **does not** endorse un-enrolling your Chromebook where it would violate the terms of any legally binding agreement or be illegal in any other fashion. The creator **does not**, under any circumstances, take any liability for what is done with this project.
 
-## Private Keys
-
-I have obtained the private keys for the ChromeOS developers by bruteforcing them, which took a couple of months to fully complete, idly running in the background. I will not spread these and will only keep them for my own purposes of providing prebuilt, convenient RMA shims, both with and without the sh1mmer payload.
-
 ## Experienced Users
 
 If you know what you're doing and don't need to be held by the hand through the entire process, see [./tldr.md](https://github.com/rainestorme/auto-sh1mmer/blob/main/tldr.md).
